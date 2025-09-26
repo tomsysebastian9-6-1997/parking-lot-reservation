@@ -1,9 +1,11 @@
-# parking-lot-reservation
-Design and implement a Parking Lot Reservation backend with REST API, using  Java + Spring Boot. The API should allow parking lot administrators to manage floors  and slots, and customers to reserve slots for specific time ranges without conflicts.
-
 # Parking Lot Reservation System
 
+## Description
+
+Design and implement a Parking Lot Reservation backend with REST API, using  Java + Spring Boot. The API should allow parking lot administrators to manage floors  and slots, and customers to reserve slots for specific time ranges without conflicts.
+
 ## Technologies
+
 - Spring Boot 3.x
 - Java 17
 - MySQL 8
@@ -16,7 +18,8 @@ Design and implement a Parking Lot Reservation backend with REST API, using  Jav
 4. run as -> maven install 
 5. run as -> java application
 
-#API calls
+## API calls
+
 1. POST /floors – Create a parking floor
 2. POST /slots – Create parking slots for a floor
 3. POST /reserve – Reserve a slot for a given time range
